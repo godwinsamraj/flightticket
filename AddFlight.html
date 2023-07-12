@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AddFlight.css">
+    <script src="AddFlight.js"></script>
+</head>
+<body>
+    <div class="card">
+        <form onsubmit="handleSubmit()" method="dialog">
+            <h1>ADD FLIGHT</h1>
+            <input type="text" placeholder="flight name" id="name">
+            <input type="text" id="arrivaltime" placeholder="hours:minutes">                
+            <input type="text" id="arrivaldate" placeholder="dd-mm-yyyy">
+            <input type="text" placeholder="arrival location" id="arrivallocation">
+            <input type="text" id="depaturetime" placeholder="hours:minutes">                
+            <input type="text" id="depaturedate" placeholder="dd-mm-yyyy">
+            <input type="text" placeholder="depature location" id="depaturelocation">
+            <button type="submit">ADD</button>
+        </form>
+    </div>
+</body>
+</html>

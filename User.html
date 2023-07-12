@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="User.css">
+    <script src="User.js"></script>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <img src="images/logo.jpg">
+            <div>
+                <a onclick="showTickets()">My Booking</a>
+                <a href="index.html"> LOG OUT </a>
+            </div>
+        </div>
+        <div class="bar"><input type="text" placeholder="search for flights" onkeyup="searchFlight()" id="searchbar"> </div>
+        <div class="main">
+            <table>
+                <tr><th>FlightName</th><th>ArrivalTime</th></th><th>ArrivalDate</th><th>ArrivalLocation</th><th>DepatureTime</th><th>DepatureDate</th><th>DepatureLocation</th><th>BookTicket</th><th>AvailableTickets</th></tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
